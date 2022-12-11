@@ -1,0 +1,57 @@
+.title {
+  color: #7E98DF;
+}
+
+.bg {
+  background-color: #E5E5E5;
+  height: 100%;
+  width: 100%;
+  padding: 40%;
+}
+
+.bodys{
+  margin-top: 150px;
+}
+
+.profilePic  {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.text {
+  color: #9EA0A5;
+}
+
+.textAddress {
+  margin-top: -5px;
+  margin-left: -15px;
+}
+
+.editPicture {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.google {
+  height: 60px;
+  border: 1px solid #7E98DF;
+  background-color: #FFF;
+  color: #7E98DF;
+  border-radius: 70px;
+}
+
+.googleText {
+  margin-left: -80px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .bg {
+    display: none;
+  }
+
+  .bodys {
+    margin: 0px;
+  }
+}

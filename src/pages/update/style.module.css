@@ -1,0 +1,64 @@
+.title {
+  color: #7E98DF;
+}
+
+.bg {
+  background-color: #E5E5E5;
+  height: 100%;
+  width: 100%;
+  padding: 40%;
+}
+
+.bodys{
+  margin-top: 150px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.signup {
+  color: #7E98DF;
+}
+
+.inputs {
+  height: 50px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+
+.buttons {
+  height: 60px;
+  border: none;
+  background-color: #7E98DF;
+  color: #FFF;
+  border-radius: 70px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.google {
+  height: 60px;
+  border: 1px solid #7E98DF;
+  background-color: #FFF;
+  color: #7E98DF;
+  border-radius: 70px;
+}
+
+.googleText {
+  margin-left: -80px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .bg {
+    display: none;
+  }
+
+  .bodys {
+    margin: 0px;
+  }
+}

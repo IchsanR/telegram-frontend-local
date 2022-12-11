@@ -1,0 +1,61 @@
+.menus {
+  margin-right: -50px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.blueColor {
+  color: #7E98DF;
+}
+
+.addMore {
+  margin-right: -50px;
+  padding-top: 10px;
+}
+
+.searchs {
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+}
+
+.profileImage {
+  border-radius: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+.chatList {
+  height: 420px;
+}
+
+.chats {
+  color: #7E98DF;
+}
+
+.viewed {
+  margin-top: -25px;
+}
+
+.headers {
+  background-color: #FFF;
+}
+
+.profileImageHeaders {
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (min-width: 500px) {
+  .backButtons {
+    display: none;
+  }
+
+  .pp {
+    margin-left: -50px;
+  }
+}

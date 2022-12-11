@@ -1,0 +1,38 @@
+.bg {
+  background-color: #E5E5E5;
+  height: 100%;
+  width: 100%;
+  padding: 50%;
+}
+
+.bodys{
+  margin-top: 150px;
+}
+
+.title{
+  color: #7E98DF;
+}
+
+.profilePic  {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.borderBottom {
+  border-bottom: 2px solid #F6F6F6;
+}
+
+@media screen and (max-width: 480px) {
+  .bg {
+    display: none;
+  }
+
+  .bodys {
+    margin: 0px;
+  }
+}
